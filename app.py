@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
+# Modificacion realizada en la rama personal merivi-viz
 
 app = dash.Dash(
     __name__,
