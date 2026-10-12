@@ -145,7 +145,7 @@ def generate_control_card():
                         children=[
                             dcc.Dropdown(
                                 id="dropdown-hora-inicial-hora",
-                                options=[{"label": i, "value": i} for i in np.arange(0,25)],
+                                options=[{"label": i, "value": i} for i in np.arange(0,24)],
                                 value=pd.to_datetime(max(data.index)-dt.timedelta(days=7)).hour,
                                 # style=dict(width='50%', display="inline-block")
                             )
